@@ -1,0 +1,22 @@
+section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.navBtn {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+a {
+    color: darkblue;
+}
+
+a:visited {
+    color: red;
+}
+
