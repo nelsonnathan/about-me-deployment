@@ -1,5 +1,6 @@
 body {
     background-color: lightgray ;
+    font-family: 'Marker Felt', fantasy;
 }
 
 section {
@@ -7,18 +8,26 @@ section {
     text-align: center;
 }
 
-nav {
-    text-align: end;
-    margin-right: 5vw;
+section div img {
+    border: 10px solid darkgray;
+}
 
+nav {
+    text-align: center;
+    margin: auto;
+}
+
+.navBtn {
+    border: 1px solid darkblue;
+    height: 2vh;
+    width: 4vw;
+    background-color: darkgrey;
+    text-decoration: none;
+    font-family: "Marker Felt", fantasy;
 }
 
 a {
     color: darkblue;
-}
-
-a:visited {
-    color: cadetblue;
 }
 
 .bio {
@@ -26,7 +35,39 @@ a:visited {
     text-align: center;
 }
 
-.interests {
+.bio div {
+    margin: 500px;
+    display: block;
+    text-align: justify;
+    position: relative;
+    bottom: 450px;
+}
+
+.goals {
     display: block;
     text-align: center;
+}
+
+.goals ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.interests .paragraph {
+    margin: 500px;
+    text-align: justify;
+    position: relative;
+    bottom: 450px
+}
+
+.hobbies {
+    position: relative;
+    bottom: 900px;
+}
+
+.hobbies .paragraph {
+    margin: 500px;
+    text-align: justify;
+    position: relative;
+    bottom: 450px;
 }
